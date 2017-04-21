@@ -1,3 +1,5 @@
+require "resolv"
+
 module ActiveMerchant
   module Fulfillment
     class ShopifyAPIService < Service
